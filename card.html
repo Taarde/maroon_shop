@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF__8">
+        <meta http__equiv="X__UA__Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device__width, initial__scale=1.0">
+        <title>Maroon shop</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__logo"></div>
+            <div class="nav__container">
+                <nav class="header__navigation navigation">
+                    <ul>
+                        <li class="navigation__item">
+                            <a href="#">Каталог</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li class="navigation__item">Контакты</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__user">
+                <ul>
+                    <li>Кабинет</li>
+                    <li>Корзина</li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class="card">
+                <img src="" alt="" class="card__image">
+                <h1 class="card__title">Rose
+                </h1>
+                <span class="card__type">крем для лица</span>
+                <div class="card__description">
+                    <p>Увлажняющий крем идеально подходит для повседневного ухода за молодой кожей.</p>
+                    <p>Крем равномерно распределяется по поверхности благодаря легкой текстуре,
+                        обеспечивает глубокое увлажнение, регенерацию клеток.
+                    </p>
+                </div>
+                <div class="card__accordion accordion">
+                    <button class="accordion__button"></button>
+                    <h2 class="accordion__title">Состав</h2>
+                    <p class="accordion__text">Aqua, Cyclomethicone, Dicaprylyl Carbonate, Butylene
+                        Glycol, Glycerin, Tapioca Starch, Nelumbium Speciosum Flower Extract, Calendula
+                        Officinalis Flower Extract, Propylene Glycol, Tocopherol, Glycine Soja Oil,
+                        Dimethiconol, Citronellol, Limonene.</p>
+                </div>
+                <div class="card__accordion accordion">
+                    <button class="accordion__button"></button>
+                    <h2 class="accordion__title">Способ применения</h2>
+                    <p class="accordion__text">Нанесите крем на очищенную кожу лица легкими
+                        массажными круговыми движениями, избегая области вокруг глаз. Подходит для
+                        дневного и ночного ухода.
+                    </p>
+                </div>
+                <form class="card__options" action="">
+                    <p class="card__options-title">Объём</p>
+                    <ul>
+                        <li>
+                            <input type="radio" name="volume" id="50ml" value="50ml" checked>
+                            <label for="50ml">50ml</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="volume" id="30ml" value="30ml">
+                            <label for="30ml">30ml</label>
+                        </label>
+                    </li>
+                </ul>
+                <div class="card__price"><span>890 ₽</span>
+                    <button class="card__button" id="card-submit" type="submit">Добавить в корзину</button>
+                  </div>
+            </form>
+        </section>
+        <section class="catalog__history">
+            <h2>Вы недавно смотрели</h2>
+            <ul>
+                <li>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3 class="card__title">Clean</h3>
+                        <div class="card__price">490</div>
+                        <div class="card__type">маска для лица</div>
+                        <div class="card__weight">100g</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3 class="card__title">Lotos</h3>
+                        <div class="card__price">890</div>
+                        <div class="card__type">маска для лица</div>
+                        <div class="card__weight">50ml</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3 class="card__title">Lavender</h3>
+                        <div class="card__price">290</div>
+                        <div class="card__type">мыло ручной работы</div>
+                        <div class="card__weight">50g</div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="logo"></div>
+        <div class="nav__container">
+            <nav class="footer__navigation">
+                <ul>
+                    <li class="">
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li class="">
+                        <a href="#">О нас</a>
+                    </li>
+                    <li class="">
+                        <a href="#">Магазины</a>
+                    </li>
+                    <li class="">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__copyright">
+            <div class="footer__copyright__inner wrapper">
+                <p>Maroon Ⓒ 2020 Все права защищены</p>
+                <p>
+                    <a class="footer__copyright__link" href="#">Политика конфиденциальности</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
